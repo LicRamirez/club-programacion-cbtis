@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Programación Competitiva</title>
 </head>
 <body>
     <style>
@@ -19,9 +19,9 @@
             font-weight: 600;
         }
         img{
-            width: 500px;
-            height: 300px;
             margin: 20px;
+            right: 100px;
+            position: absolute;
         }
         .start{
             background-color: rgb(0, 0, 0);
@@ -32,14 +32,30 @@
             justify-content: center;
             border-radius: 50px;
         }
+        .start h1
+        {   
+            position: relative;
+            top: 60%;
+            transform: translateY(-50%);
+        }
         h1{
             color: white;
             text-align: center;
             top: 50%;
         }
+        .list-element
+        {
+            padding: 50px;
+            box-shadow: 0 10px 10px 0 gray;
+            display: flex;
+            flex-direction: row;
+        }
+        li{
+            list-style: circle;
+        }
     </style>
     <div class="start"><h1>Progracion Competitiva</h1></div>
-   
+    <br><br>
     <p>
         La programacion competitiva es una disciplina en la cual 
         se desarrollan soluciones a problemas logicos matematicos
@@ -62,50 +78,71 @@
     <ul>
         <li>
             <div class="list-element">
-                <h5>Google Hashing</h5>
+                <div class="namesdetails">
+                    <h5>Google Hashing</h5>
                     Frecuencia: anual. <br>
                     Por equipos, de 2 a 4. <br>
                     Último evento: 5 de Marzo, 2019. <br>
+                </div>
+                
+                    <img src="imagenes/hc.jpg" width="400px" height="100px">
             </div>
         </li>
         <li>
             <div class="list-element">
-                <h5>Google Codejam</h5>
-                Frecuencia: anual. <br>
-                Individual. <br>
-            </div>
-        </li>
-        <li>
-            <div class="list-element">
-                <h5>Google Kick Start</h5>
+                <div class="namedetails">
+                    <h5>Google Codejam</h5>
                     Frecuencia: anual. <br>
                     Individual. <br>
+                </div>
+                <img src="imagenes/cj.png" width="250px" height="125px">
             </div>
         </li>
         <li>
             <div class="list-element">
-                <h5>Google Hashing</h5>
+                <div class="namedetails">
+                    <h5>Google Kick Start</h5>
                     Frecuencia: anual. <br>
-                    Por equipos, de 2 a 4. <br>
-                    Último evento: 5 de Marzo, 2019. <br>
+                    Individual. <br>
+                </div>
+                <img src="imagenes/ks.jpg" width="300px" height="90px">
             </div>
+            
         </li>
         <li>
             <div class="list-element">
-                <h5>Competiciones de Hackerrank</h5>
+                <div class="namedetails">
+                    <h5>Competiciones de Hackerrank</h5>
                     Frecuencia: baja, va cambiando. Nueve en la segunda mitad de 2018. <br>
                     Individual. <br>
+                </div>
+                <img src="imagenes/hr.png" width="300px" height="90px">
             </div>
         </li>
         <li>
             <div class="list-element">
-                <h5>Codeforces</h5>
-                Frecuencia: muy alta pero va cambiando. <br>
-                Individual. <br>
+                <div class="namedetails">
+                    <h5>Codeforces</h5>
+                    Frecuencia: muy alta pero va cambiando. <br>
+                    Individual. <br>
+                </div>
+                
+                <img src="imagenes/cf.png" width="320px" height="100px">
+            </div>
+        </li>
+        <li>
+            <div class="list-element">
+                <div class="namedetails">
+                    <h5>ICPC</h5>
+                    competición anual de programación y algorítmica entre universidades de todo el mundo, <br>
+                    donde prima el trabajo en equipo, el análisis de problemas y el desarrollo rápido de software
+                </div>
+
+                <img src="imagenes/icpc.png" width="500px" height="100px">
             </div>
         </li>
     </ul>
         
-    <img src="mqdefault.jpg" alt="">
+    <img src="imagenes/mqdefault.jpg" alt="">
 </body>
 </html>
